@@ -1,0 +1,60 @@
+Central Park	40.781246	-73.96667	11
+The National 9/11 Memorial & Museum	40.71151	-74.01332	24
+The Metropolitan Museum of Art	40.77943	-73.96324	20
+Empire State Building	40.7484	-73.9857	23
+The High Line	40.739628	-74.00821	19
+Broadway	40.75797	-73.985535	10
+Top of the Rock	40.759003	-73.979324	27
+Brooklyn Bridge	40.706367	-73.99718	9
+Statue of Liberty	40.6892	-74.0444	14
+Grand Central Terminal	40.752728	-73.97723	22
+Manhattan Skyline	40.74833	-73.98568	18
+Times Square	40.75889	-73.98512	17
+Staten Island Ferry	40.7014	-74.0132	22
+Bryant Park	40.75484	-73.98412	24
+One World Observatory	40.71324	-74.0132	16
+Rockefeller Center	40.758736	-73.978676	14
+New York Public Library	40.753075	-73.98162	29
+St. Patrick's Cathedral	40.75876	-73.97674	20
+American Museum of Natural History	40.780945	-73.97352	5
+The Museum of Modern Art (MoMA)	40.761433	-73.97762	28
+Chelsea Market	40.7425	-74.0061	11
+SUMMIT One Vanderbilt	40.752766	-73.978745	1
+Madison Square Garden	40.750504	-73.99344	13
+Intrepid Museum	40.764652	-74.00029	4
+Radio City Music Hall	40.75953	-73.97858	14
+Ground Zero Museum Workshop	40.741444	-74.006645	11
+The Met Cloisters	40.86475	-73.93152	8
+Tenement Museum	40.718822	-73.98994	25
+Fifth Avenue	40.74836	-73.98462	8
+Frick Collection	40.771282	-73.96739	21
+Museum of Sex	40.744083	-73.98755	25
+The Oculus	40.711594	-74.01139	1
+Ellis Island	40.6989	-74.03972	8
+The Morgan Library & Museum	40.74922	-73.9814	5
+Greenwich Village	40.73028	-73.99819	20
+Arlo Soho	40.72449	-74.00797	4
+World Trade Center's Liberty Park	40.70817	-74.00882	1
+Christmas Spectacular Starring the Radio City Rockettes	40.759975	-73.97998	12
+The Roosevelt Island Tramway	40.76108	-73.963974	19
+Lincoln Center for the Performing Arts	40.772335	-73.98316	19
+Madame Tussauds New York	40.756447	-73.988884	14
+St. Paul's Chapel	40.71115	-74.00906	12
+Museum at Eldridge Street	40.714626	-73.99352	23
+Flatiron Building	40.741066	-73.9897	27
+Chrysler Building	40.75147	-73.97602	0
+Washington Square Park	40.730846	-73.99752	27
+The Vessel	40.75378	-74.00216	5
+World Trade Center Memorial Foundation	40.71144	-74.01301	23
+Whitney Museum of American Art	40.739426	-74.00909	11
+United Nations Headquarters	40.748753	-73.96949	5
+Ellis Island Immigration Museum	40.702396	-74.01677	16
+One World Trade Center	40.71288	-74.01338	18
+Boucherie West Village	40.73305	-74.002884	18
+Lower Manhattan	40.722286	-73.99917	15
+Trinity Church	40.70786	-74.01184	15
+Jazz at Lincoln Center	40.768734	-73.983	22
+Roosevelt Island	40.755566	-73.95983	11
+New Amsterdam Theater	40.75607	-73.98761	24
+Brookfield Place	40.71408	-74.0153	20
+Gershwin Theater	40.762333	-73.98517	1

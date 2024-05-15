@@ -1,0 +1,6 @@
+- The project is currently using Clingo instead of IDP-Z3 to build the knowledge base.
+- main.py is the driver code and it must be run to create the itenerary.
+- The current set of destinations is a small list gotten using Google maps manually, it will be built further by using google maps APIs.
+- The current clingo immplementation does not optimize all the necessary goals and needs further work.
+- The api documentation is present in main.html
+- The project document is edited to show usage of clingo. 

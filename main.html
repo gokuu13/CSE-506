@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module main</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>main</strong></big></big> (version 0.1.0)</font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cgokul%5Conedrive%5Cdesktop%5Cgokulkumar_manickavasagam_115844070_phase1%5Cmain.py">c:\users\gokul\onedrive\desktop\gokulkumar_manickavasagam_115844070_phase1\main.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="csv.html">csv</a><br>
+<a href="math.html">math</a><br>
+</td><td width="25%" valign=top><a href="re.html">re</a><br>
+<a href="subprocess.html">subprocess</a><br>
+</td><td width="25%" valign=top><a href="time.html">time</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-createKnowledgeBase"><strong>createKnowledgeBase</strong></a>(trip_time, trip_cost, mandatory_dest, destinations, start_point, end_point)</dt><dd><tt>This&nbsp;function&nbsp;creates&nbsp;the&nbsp;clingo&nbsp;knowledge&nbsp;base&nbsp;by&nbsp;creating&nbsp;a&nbsp;temporary&nbsp;.lp&nbsp;file&nbsp;with&nbsp;the&nbsp;user&nbsp;constraints&nbsp;and&nbsp;various&nbsp;destinations.<br>
+&nbsp;<br>
+Args:&nbsp;trip_time&nbsp;,&nbsp;trip_cost,&nbsp;mandatory_dest&nbsp;-&nbsp;user&nbsp;provided&nbsp;inputs<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;destinations&nbsp;-&nbsp;all&nbsp;destinations&nbsp;curated<br>
+Returns:&nbsp;filepath&nbsp;-&nbsp;location&nbsp;of&nbsp;the&nbsp;new&nbsp;file&nbsp;created</tt></dd></dl>
+ <dl><dt><a name="-haversine"><strong>haversine</strong></a>(lat1, lon1, lat2, lon2)</dt><dd><tt>Calculate&nbsp;the&nbsp;great-circle&nbsp;distance&nbsp;between&nbsp;two&nbsp;points&nbsp;using&nbsp;the&nbsp;Haversine&nbsp;formula.<br>
+:param&nbsp;lat1:&nbsp;Latitude&nbsp;of&nbsp;point&nbsp;1&nbsp;(in&nbsp;degrees)<br>
+:param&nbsp;lon1:&nbsp;Longitude&nbsp;of&nbsp;point&nbsp;1&nbsp;(in&nbsp;degrees)<br>
+:param&nbsp;lat2:&nbsp;Latitude&nbsp;of&nbsp;point&nbsp;2&nbsp;(in&nbsp;degrees)<br>
+:param&nbsp;lon2:&nbsp;Longitude&nbsp;of&nbsp;point&nbsp;2&nbsp;(in&nbsp;degrees)<br>
+:return:&nbsp;Distance&nbsp;in&nbsp;miles</tt></dd></dl>
+ <dl><dt><a name="-main"><strong>main</strong></a>()</dt><dd><tt>This&nbsp;is&nbsp;the&nbsp;entry&nbsp;point&nbsp;of&nbsp;the&nbsp;program&nbsp;and&nbsp;calls&nbsp;all&nbsp;other&nbsp;functions.&nbsp;<br>
+It&nbsp;essentially&nbsp;calls&nbsp;functions&nbsp;to&nbsp;take&nbsp;input&nbsp;from&nbsp;the&nbsp;user,&nbsp;edit&nbsp;the&nbsp;clingo&nbsp;knowledge&nbsp;base,<br>
+generate&nbsp;the&nbsp;various&nbsp;tour&nbsp;paths&nbsp;and&nbsp;<br>
+Args:&nbsp;none<br>
+Returns:&nbsp;none</tt></dd></dl>
+ <dl><dt><a name="-parseOutput"><strong>parseOutput</strong></a>(outputStr, destinations, start_point, end_point)</dt><dd><tt>This&nbsp;function&nbsp;parses&nbsp;the&nbsp;clingo&nbsp;output&nbsp;and&nbsp;returns&nbsp;optimal&nbsp;paths&nbsp;as&nbsp;a&nbsp;list&nbsp;of&nbsp;strings<br>
+&nbsp;<br>
+Args:&nbsp;outputStr&nbsp;(str)&nbsp;-&nbsp;clingo&nbsp;output<br>
+Returns:&nbsp;parsedOutput&nbsp;-&nbsp;parsed&nbsp;clingo&nbsp;output&nbsp;with&nbsp;0&nbsp;or&nbsp;more&nbsp;solutions</tt></dd></dl>
+ <dl><dt><a name="-readDestFromFile"><strong>readDestFromFile</strong></a>()</dt><dd><tt>This&nbsp;function&nbsp;is&nbsp;used&nbsp;to&nbsp;read&nbsp;from&nbsp;NYC_Destinations.txt.<br>
+The&nbsp;file&nbsp;contains&nbsp;destinations&nbsp;in&nbsp;NYC&nbsp;along&nbsp;with&nbsp;their&nbsp;latitude&nbsp;and&nbsp;longitudinal&nbsp;information.<br>
+&nbsp;<br>
+Args:&nbsp;None<br>
+Returns:&nbsp;List&nbsp;of&nbsp;Destinations</tt></dd></dl>
+ <dl><dt><a name="-runClingoApp"><strong>runClingoApp</strong></a>(filename)</dt><dd><tt>This&nbsp;function&nbsp;runs&nbsp;the&nbsp;clingo&nbsp;file&nbsp;with&nbsp;the&nbsp;appropriate&nbsp;conditions.<br>
+Records&nbsp;the&nbsp;time&nbsp;taken&nbsp;by&nbsp;the&nbsp;program<br>
+&nbsp;<br>
+Args:&nbsp;filename&nbsp;(str)&nbsp;-&nbsp;name&nbsp;of&nbsp;the&nbsp;clingo&nbsp;file<br>
+Returns:&nbsp;parsedOutput&nbsp;-&nbsp;parsed&nbsp;output&nbsp;of&nbsp;the&nbsp;clingo&nbsp;process<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stderr&nbsp;-&nbsp;error/warning&nbsp;messages&nbsp;generated&nbsp;by&nbsp;the&nbsp;clingo&nbsp;process</tt></dd></dl>
+ <dl><dt><a name="-takeUserInputs"><strong>takeUserInputs</strong></a>()</dt><dd><tt>This&nbsp;function&nbsp;is&nbsp;used&nbsp;to&nbsp;take&nbsp;input&nbsp;from&nbsp;the&nbsp;user<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trip_time&nbsp;-&nbsp;total&nbsp;time&nbsp;available&nbsp;for&nbsp;user&nbsp;to&nbsp;spend&nbsp;in&nbsp;NYC<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trip_cost&nbsp;-&nbsp;total&nbsp;user&nbsp;budget<br>
+&nbsp;&nbsp;&nbsp;&nbsp;mandatory_dest&nbsp;-&nbsp;list&nbsp;of&nbsp;numbers&nbsp;corresponding&nbsp;to&nbsp;the&nbsp;destinations&nbsp;that&nbsp;the&nbsp;user&nbsp;wants&nbsp;to&nbsp;100%&nbsp;visit<br>
+&nbsp;<br>
+Args:&nbsp;None<br>
+Returns:&nbsp;trip_time,&nbsp;trip_cost,&nbsp;mandatory_dest,&nbsp;start_point,&nbsp;end_point</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#7799ee">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Author</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#7799ee"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Gokul&nbsp;Kumar&nbsp;Manickavasagam</td></tr></table>
+</body></html>
